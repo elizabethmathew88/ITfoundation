@@ -1,0 +1,12 @@
+C:\mysource\Homework4\Homework4\bin\Debug\Homework4.exe.config
+C:\mysource\Homework4\Homework4\bin\Debug\Homework4.exe
+C:\mysource\Homework4\Homework4\bin\Debug\Homework4.pdb
+C:\mysource\Homework4\Homework4\obj\Debug\Homework4.csprojResolveAssemblyReference.cache
+C:\mysource\Homework4\Homework4\obj\Debug\Homework4.exe
+C:\mysource\Homework4\Homework4\obj\Debug\Homework4.pdb
+C:\mysource\ITfoundation\Homework4\Homework4\bin\Debug\Homework4.exe.config
+C:\mysource\ITfoundation\Homework4\Homework4\obj\Debug\Homework4.exe
+C:\mysource\ITfoundation\Homework4\Homework4\obj\Debug\Homework4.pdb
+C:\mysource\ITfoundation\Homework4\Homework4\bin\Debug\Homework4.exe
+C:\mysource\ITfoundation\Homework4\Homework4\bin\Debug\Homework4.pdb
+C:\mysource\ITfoundation\Homework4\Homework4\obj\Debug\Homework4.csprojResolveAssemblyReference.cache
