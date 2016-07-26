@@ -1,0 +1,55 @@
+Homework: Variable Type vs Object Type
+
+1.Which of the followings is considered boxing?
+c. object myobjx = fx;
+
+
+
+2.Which of the followings is considered unboxing?
+d. int ix = (int) objy;
+
+
+
+3.Object objdblx is of type double. Assign the value of this object to a variable of type float.
+
+float fx = (float)(double)objdblx;
+
+
+
+4.Object objflx is of type float. Assign the value of this object to another variable of type double.
+
+double dx = (float)objflx;
+
+
+
+5.Convert the string strx to a double dblx:
+
+double dblx =double.Parse(strx);
+
+
+
+6.Convert the integer ix to a float fx:
+
+float fx =ix;
+
+
+
+7.Convert the double dblx to a string strx:
+
+string strx =dblx.Tostring();
+
+
+
+8.Object is the    'base'   class of all other data types.
+
+
+
+9.What is an object (the definition)?
+An object is something which has some properties as well as some functionality.
+
+
+
+10.How do you declare an object in C#?  object obj;
+
+What is the difference between an object and a variable?
+A variable is of a particular type such as int,float etc. whereas an object can contain any type of data.
