@@ -1,0 +1,361 @@
+
+Student Name:Elizabeth Mathew
+
+IT Foundation using C#      EXAM 1      Instructor: Vallejo
+
+True / False (2 points each)
+
+1. A block ({ })can contain more than one statement. 		TRUE 
+
+2. Every program must have a function called Main. 		TRUE 
+
+3. The type int is signed. 					TRUE 
+
+4. Multi-line comments are started by //. 			FALSE
+
+5. Variables are used only for storing constants.		FALSE
+
+6. All statements are terminated by a comma. 			FALSE
+
+7. A variable name may begin with an underscore ( _ ).  	TRUE 
+
+8. \n is used by WriteLine to go to the next new line.  	TRUE 
+
+9. Upper- and lower-case letters are significant for names. 	TRUE 
+
+10. The type char is Unicode (2 bytes). 			TRUE 
+
+
+
+
+Multiple Choice (3 points each)
+11. Which feature will execute a block of code at least once:
+C. do-while
+
+
+12. An int variable occupies:
+C. Four bytes
+
+
+
+13. What function is used to read in a string:
+D. Console.ReadLine
+
+
+
+14. Which is an INVALID statement:
+B. y = y + 2
+
+
+
+15. What does X == Y mean?
+C. X is compared to Y
+
+
+
+
+16. Which of the following is NOT a logical operator:
+A. ;
+
+
+
+17. Which is an invalid type of Field:
+B. get
+
+
+
+18. break is used to:
+D. Exit a loop
+
+
+
+19. C# ignores:
+A. Whitespace
+
+
+
+20. What is the significance of while (true)
+C. It is an infinite statement
+
+
+
+21. What is the result of the following statement for x = 4? (5 points)
+
+result = X + X++;  [ result=4+4=8 
+                     X=X+1=5 ]
+
+result = --X + X;  [ X=X-1=4
+                     result=4+4=8]
+Hence final result=8
+
+
+
+
+22. What are the basic arithmetic operations? Show the operational signs. (5 points)
+
+The basic arithmetic operations are :
+Addition(+) , Subtraction(-) , Multiplication(*) , Division(/) and Modulus(% to find the remainder of a division).
+
+
+
+
+23. What are the basic conditional operations (less than, equality, etc.)?
+What are the basic logical operations? (5 points)
+
+The basic conditional operators are:
+Less than(<) , Greater than(>) , Less than or eaqual to(<=) , Greater than or equal to(>=) , Equals(==) , Not equal(!=)
+
+The basic logical operators are:
+And(&&) , Or(||) , Not(!)
+
+
+
+
+24. Check if the following if expressions below result in TRUE or FALSE? (5 points)
+
+A. 				B.
+usCnt = 10; usSum = 10;		usCnt = 10; usSum = 10;
+if (usSum++ == usCnt) 		if (usSum == ++usCnt)
+{ 				{
+ etc... 		         etc...
+} 				}
+TRUE 				 FALSE
+
+
+
+
+25. What is the value of usSum after the following code segment? (5 points)
+
+usSum = 10; usCnt = 2;
+switch (usCnt)
+{
+ case 3:
+ {
+  usSum = usSum + 2;
+  break;
+ }
+ default:
+ {
+  break;
+ }
+ case 2:
+ {
+  usSum = usSum * 3;
+  goto case 3;
+ }
+}
+
+Steps:
+usSum=10*3=30
+usSum=30+2=32
+
+Final usSum = 32
+
+
+
+
+
+26. Circle the COMPILER/SYNTAX errors in this program (5 points)
+
+static void Main( }----------------------> closing bracket should be )
+{
+ int iSum,;-------------------------------> comma not necessary
+ int iCnt=Sum, iValue; iTotal;------------> int iCnt=iSum, iValue, iTotal; 
+ char chChar = "a";-----------------------> char chChar ='a'; (single quotation needed) 
+ iSum = chChar----------------------------> iSum=(int)chChar;
+ ;
+ while (iSum = 100);----------------------> semicolon not necessary
+ {
+  iSum = iSum + 1;
+ }
+)-----------------------------------------> closing bracket should be }
+
+
+
+
+
+
+27. Given the following program what will the last value of usCnt be when the program completes execution?
+    Is there anything unusual about this program? What does it show and what do you conclude from this? (10 points)
+
+using System;
+ class Test
+ {
+  static void Main( )
+  {
+   uint usCnt;
+   uint usSum = 0;
+   for (usCnt = 10; usCnt >= 0; usCnt--)
+   {
+    Console.WriteLine("{0}",usCnt);
+    usSum = usSum + usCnt;
+   }
+  }
+}
+
+
+The compilation would be:
+usCnt		usSum
+10		10
+9		19
+8		27
+7		34
+6		40
+5		45
+4		49
+3		52
+2		54
+1		55
+0		55
+Again it executes usCnt--,but since usCnt is declared as an unsigned integer it cannot have negative values in it. 
+So 0-1=-1 and usCnt takes only the value 1. So again
+usCnt		usSum
+1		56
+0		56
+1		57
+0		57
+And it goes on as an infinite loop.
+
+
+
+
+
+
+28. What will the following program display? (10 points)
+using System;
+class Test
+{
+ static void Main( )
+ {
+  int iX;
+  int iY;
+  iX = 15321;
+  while (iX != 0)
+   {
+    iY = iX % 10;
+    Console.Write(iY);
+    iX /= 10;
+   }
+  Console.WriteLine();
+ }
+}
+
+Steps:
+iX=15321
+iY=15321 % 10 = 1
+iX=15321 / 10 = 1532
+
+iY=1532 % 10 = 2
+iX=1532 / 10 = 153
+
+iY=153 % 10 = 3
+iX=153 / 10 = 15
+
+iY=15 % 10 = 5
+iX=15 / 10 = 1
+
+iY=1 % 10 = 1
+iX=1 / 10 = 0
+
+Display will be :
+12351
+
+
+
+
+
+29. We have a stack object (10 points):
+> What is while ( ) statement do?
+> What is IsEmpty?
+> What is Pop()?
+> What is {0}?
+> What is the code below going to do?
+
+ while (!stack.IsEmpty) 
+ {
+   Console.WriteLine("Popping {0}", stack.Pop()); 
+ }
+
+
+The while statement checks the boolean value returned from the property IsEmpty which is accessed using the object stack.
+If stack.IsEmpty= false, !stack.IsEmpty=true and hence the statement in the loop will be executed.
+
+IsEmpty is a property which has  'get'and 'set' fields.
+'get' is used to return a value from a variable and 'set' is used to assign a value to a variable.
+
+Pop() is a function or a method which is used to get the values stored in the stack.
+
+{0} is a place holder which is used to display the values using WriteLine
+
+First it checks the while statement.
+If it is true, it enters the loop and call on Pop() function and display the last entered element in the stack(Last In First Out) and then the next element and so on.
+This process repeats until the while statement becomes false when the stack is empty and exits from the loop.
+
+
+
+
+
+
+
+30. What is the difference between a “Class” and a “Struct” in C#? (10 points)
+
+A class is used to categorize or group together a set of fields and functions whereas struct is a method of declaring a set of variables/fields which are of different types.
+An example of a class is:
+
+class Add
+{
+ static void Main()
+ {
+  int a=2;
+  int b=3;
+  int sum=a+b;
+  Console.WriteLine("Sum={0}",sum);
+  Console.ReadLine();
+ }
+}
+
+The usage of struct is as :
+
+struct Book
+{
+ int number;
+ string author;
+}
+
+class Test
+{
+ static void Main()
+ {
+  Book[] book=new Book[2];
+  book[0].number=1;
+  book[0].author="Peter";
+
+  book[0].number=2;
+  book[0].author="Christy";
+
+  foreach(Book b in book)
+  { 
+   Console.WriteLine("{0} {1}",b.number,b.author);
+  } 
+ }
+}
+Inside the class an array of struct is created and the variables declared using struct can be accessed by the class. Hence we can assign elements to the array as well as read them from the array.Here struct contain 'int' and 'string' variables which are of different types.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
