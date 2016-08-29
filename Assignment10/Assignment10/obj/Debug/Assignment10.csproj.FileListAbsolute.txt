@@ -1,0 +1,9 @@
+C:\mysource\Assignment10\Assignment10\bin\Debug\Assignment10.exe.config
+C:\mysource\Assignment10\Assignment10\bin\Debug\Assignment10.exe
+C:\mysource\Assignment10\Assignment10\bin\Debug\Assignment10.pdb
+C:\mysource\Assignment10\Assignment10\obj\Debug\Assignment10.csprojResolveAssemblyReference.cache
+C:\mysource\Assignment10\Assignment10\obj\Debug\Assignment10.exe
+C:\mysource\Assignment10\Assignment10\obj\Debug\Assignment10.pdb
+C:\mysource\ITfoundation\Assignment10\Assignment10\bin\Debug\Assignment10.exe.config
+C:\mysource\ITfoundation\Assignment10\Assignment10\obj\Debug\Assignment10.exe
+C:\mysource\ITfoundation\Assignment10\Assignment10\obj\Debug\Assignment10.pdb
